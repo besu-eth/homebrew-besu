@@ -28,6 +28,6 @@ brew upgrade besu
 ## Version update workflow
 
 Use GitHub [workflow](.github/workflows/update-version.yml) to updated the version. Run the workflow to perform new
-release update. Workflow requires Besu version, name of the git author and the email of the aurther. If the workflow
-have permission to create pull requests, it will create the PR. If not user need to create the pull request using the
+release update. Workflow requires Besu version. If the workflow
+has permission to create pull requests, it will create the PR. If not, you need to create the pull request using the
 created branch.
