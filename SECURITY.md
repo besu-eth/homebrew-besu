@@ -1,23 +1,39 @@
-# Hyperledger Security Policy
+# Security Policy
 
-## Reporting a Security Bug
+## Reporting a Vulnerability
 
-If you think you have discovered a security issue in any of the Hyperledger
-projects, we'd love to hear from you. We will take all security bugs
-seriously and if confirmed upon investigation we will patch it within a
-reasonable amount of time and release a public security bulletin discussing
-the impact and credit the discoverer.
+If you believe you have found a security vulnerability in this Homebrew tap — including issues with
+formula integrity, incorrect checksums, or unexpected binary substitution — please report it
+privately. **Do not open a public issue.**
 
-There are two ways to report a security bug. The easiest is to email a
-description of the flaw and any related information (e.g. reproduction
-steps, version) to
-[security at hyperledger dot org](mailto:security@hyperledger.org).
+For vulnerabilities in the Besu client itself (not the packaging), please report to
+[besu-eth/besu](https://github.com/besu-eth/besu/security/advisories/new) instead.
 
-The other way is to file a confidential security bug in our
-[JIRA bug tracking system](https://jira.hyperledger.org).
-Be sure to set the “Security Level” to “Security issue”.
+### Preferred method — GitHub private vulnerability reporting
 
-The process by which the Hyperledger Security Team handles security bugs
-is documented further in our
-[Defect Response](https://wiki.hyperledger.org/display/HYP/Defect+Response)
-page on our [wiki](https://wiki.hyperledger.org).
+Use the **[Report a vulnerability](https://github.com/besu-eth/homebrew-besu/security/advisories/new)**
+button in the Security tab of this repository. This opens a private draft advisory visible only to
+maintainers and is the fastest path to triage.
+
+### Alternative — email
+
+For sensitive reports where you prefer not to use GitHub:
+
+- **[security-besu@lists.hyperledger.org](mailto:security-besu@lists.hyperledger.org)** — reaches a
+  subset of Besu maintainers and LF Decentralized Trust staff.
+
+When reporting by email, include a description of the vulnerability and any relevant detail:
+reproduction steps, affected versions, and any known active exploitation.
+
+### How we handle reports
+
+- Acknowledgement — we aim to acknowledge receipt within 5 business days.
+- Triage — the security team assesses severity and impact. We will keep you informed of our assessment.
+- Fix development — fixes are developed privately and applied to the tap formula.
+- Release — the fix ships in an updated formula. We will notify you before release if possible.
+- Disclosure — after a fix is available, we publish a GitHub Security Advisory with vulnerability
+  details, affected versions, fix version, and reporter credit (with your consent).
+- We do not publish vulnerability details before a fix is available.
+
+For more detail on how the security team handles reports, see our
+[Security Policy](https://github.com/besu-eth/besu/wiki/Security-Policy).
