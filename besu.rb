@@ -1,5 +1,5 @@
 class Besu < Formula
-  desc "hyperledger besu ethereum client"
+  desc "besu ethereum client"
   homepage "https://github.com/hyperledger/besu"
   url "https://github.com/hyperledger/besu/releases/download/26.11.1/besu-26.11.1.zip"
   # update with: ./updateBesu.sh <new-version>
